@@ -1,109 +1,68 @@
-# Product Marketing Context
+Product Marketing Context
+Last updated: 2026-05-13
 
-*Last updated: 2026-05-13*
+Product Overview
+One-liner: CrawlBeast is a fast, beautiful, and SEO audit desktop application for modern marketers and developers. What it does: CrawlBeast crawls websites to identify and report on critical technical SEO issues. It checks for broken links, missing meta tags, duplicate content, status code errors (404/500), orphan pages, canonical mismatches, and more. It runs locally as a desktop app on Mac and Windows, providing a privacy-first, unlimited crawling experience with a modern, intuitive dashboard. Product category: SEO Software / Website Crawler / Technical SEO Audit Tool Product type: Desktop Application (Electron/React/SQLite) Business model: Freemium / Paid desktop software (with upgrade paths)
 
-## Product Overview
-**One-liner:** CrawlBeast is a fast, beautiful, and SEO audit desktop application for modern marketers and developers.
-**What it does:** CrawlBeast crawls websites to identify and report on critical technical SEO issues. It checks for broken links, missing meta tags, duplicate content, status code errors (404/500), orphan pages, canonical mismatches, and more. It runs locally as a desktop app on Mac and Windows, providing a privacy-first, unlimited crawling experience with a modern, intuitive dashboard.
-**Product category:** SEO Software / Website Crawler / Technical SEO Audit Tool
-**Product type:** Desktop Application (Electron/React/SQLite)
-**Business model:** Freemium / Paid desktop software (with upgrade paths)
+Target Audience
+Target companies: Marketing agencies, in-house marketing teams, freelance SEOs, and web development shops. Decision-makers: SEO Specialists, Digital Marketing Managers, Webmasters, Web Developers. Primary use case: Auditing a website for technical SEO errors to improve search engine rankings and user experience. Jobs to be done:
 
-## Target Audience
-**Target companies:** Marketing agencies, in-house marketing teams, freelance SEOs, and web development shops.
-**Decision-makers:** SEO Specialists, Digital Marketing Managers, Webmasters, Web Developers.
-**Primary use case:** Auditing a website for technical SEO errors to improve search engine rankings and user experience.
-**Jobs to be done:**
-- Find and fix broken links and 404/500 errors across an entire site.
-- Identify duplicate, missing, or poorly optimized meta titles and descriptions.
-- Ensure proper site architecture (detecting orphan pages, internal nofollow links).
-- Validate on-page SEO elements like H1 tags, canonicals, and image alt text.
-- Generate a comprehensive SEO health score and actionable issue list.
-**Use cases:**
-- Routine website health monitoring.
-- SEO audits for new clients or website migrations.
-- Technical QA for local staging sites before pushing to production (since it runs locally).
+Find and fix broken links and 404/500 errors across an entire site.
+Identify duplicate, missing, or poorly optimized meta titles and descriptions.
+Ensure proper site architecture (detecting orphan pages, internal nofollow links).
+Validate on-page SEO elements like H1 tags, canonicals, and image alt text.
+Generate a comprehensive SEO health score and actionable issue list. Use cases:
+Routine website health monitoring.
+SEO audits for new clients or website migrations.
+Technical QA for local staging sites before pushing to production (since it runs locally).
+Personas
+Persona	Cares about	Challenge	Value we promise
+The Technical SEO	Finding every single technical flaw (canonicals, orphan pages, status codes)	Expensive SaaS crawlers with strict page limits or clunky old desktop software	A modern, fast desktop crawler without arbitrary page limits
+The Web Developer	Ensuring their code is SEO-friendly before launch	Waiting for cloud crawlers to reach their staging sites behind firewalls	Local execution means it can crawl localhost or private staging environments easily
+The Agency Marketer	Getting a quick, digestible overview of a client's site health	SaaS tools that charge per client or project	Unlimited projects and clear, beautiful reports they can act on immediately
+Problems & Pain Points
+Core problem: Technical SEO auditing is often bottlenecked by expensive SaaS subscriptions with crawl limits, or relies on outdated desktop software with a steep learning curve. Why alternatives fall short:
 
-## Personas
-| Persona | Cares about | Challenge | Value we promise |
-|---------|-------------|-----------|------------------|
-| The Technical SEO | Finding every single technical flaw (canonicals, orphan pages, status codes) | Expensive SaaS crawlers with strict page limits or clunky old desktop software | A modern, fast desktop crawler without arbitrary page limits |
-| The Web Developer | Ensuring their code is SEO-friendly before launch | Waiting for cloud crawlers to reach their staging sites behind firewalls | Local execution means it can crawl `localhost` or private staging environments easily |
-| The Agency Marketer | Getting a quick, digestible overview of a client's site health | SaaS tools that charge per client or project | Unlimited projects and clear, beautiful reports they can act on immediately |
+SaaS tools (Ahrefs, Semrush) are expensive and limit the number of pages or projects you can crawl per month.
+Traditional desktop crawlers (Screaming Frog) have a complex, intimidating UI that looks like a 1990s spreadsheet.
+Cloud crawlers cannot easily access local development environments or sites behind firewalls. What it costs them: Wasted budget on subscription tiers they don't fully use, missed SEO errors due to crawl limits, and time wasted deciphering clunky UI. Emotional tension: Frustration with SaaS pricing models and overwhelm from overly complex data dumps.
+Competitive Landscape
+Direct: Screaming Frog SEO Spider — falls short because the UI is dense, outdated, and intimidating for non-technical users. Direct: Sitebulb — falls short because it can be resource-heavy and requires a recurring subscription. Secondary: Cloud SaaS Auditors (Ahrefs, Semrush, Moz) — fall short because they are expensive, have strict crawl credits, and can't crawl local/private staging environments easily.
 
-## Problems & Pain Points
-**Core problem:** Technical SEO auditing is often bottlenecked by expensive SaaS subscriptions with crawl limits, or relies on outdated desktop software with a steep learning curve.
-**Why alternatives fall short:**
-- SaaS tools (Ahrefs, Semrush) are expensive and limit the number of pages or projects you can crawl per month.
-- Traditional desktop crawlers (Screaming Frog) have a complex, intimidating UI that looks like a 1990s spreadsheet.
-- Cloud crawlers cannot easily access local development environments or sites behind firewalls.
-**What it costs them:** Wasted budget on subscription tiers they don't fully use, missed SEO errors due to crawl limits, and time wasted deciphering clunky UI.
-**Emotional tension:** Frustration with SaaS pricing models and overwhelm from overly complex data dumps.
+Differentiation
+Key differentiators:
 
-## Competitive Landscape
-**Direct:** Screaming Frog SEO Spider — falls short because the UI is dense, outdated, and intimidating for non-technical users.
-**Direct:** Sitebulb — falls short because it can be resource-heavy and requires a recurring subscription.
-**Secondary:** Cloud SaaS Auditors (Ahrefs, Semrush, Moz) — fall short because they are expensive, have strict crawl credits, and can't crawl local/private staging environments easily.
+Modern UI/UX: Built with React and Tailwind, featuring a sleek, intuitive dashboard (the "SaaS glow" feel) instead of a spreadsheet grid.
+Local Execution: Runs locally on your machine, utilizing your own hardware and network without cloud restrictions.
+Privacy-First: Crawl data is stored locally in an SQLite database, not sent to a third-party server.
+Unlimited Potential: No artificial SaaS limits on projects or URLs (limited only by your machine's resources). How we do it differently: We combined the power of an enterprise-grade crawler (Crawlee) with the beautiful UI of a modern web app, packaged as a fast Electron desktop tool. Why that's better: Users get the best of both worlds: the one-time-purchase or low-cost feel of a desktop app with the slick user experience of modern SaaS. Why customers choose us: They want a simple, beautiful tool that just works, without paying hundreds of dollars a month for crawl credits.
+Objections
+Objection	Response
+My computer might be too slow for large crawls.	CrawlBeast uses a highly optimized concurrent crawler (Crawlee) and efficient local storage to minimize resource usage.
+I already have Ahrefs/Semrush.	CrawlBeast is perfect as a secondary, on-demand tool that doesn't eat up your monthly cloud crawl credits, and it can crawl your private staging sites that Ahrefs can't see.
+Anti-persona: Enterprise companies needing distributed, scheduled crawling of multi-million page ecommerce sites across hundreds of proxies.
 
-## Differentiation
-**Key differentiators:**
-- **Modern UI/UX:** Built with React and Tailwind, featuring a sleek, intuitive dashboard (the "SaaS glow" feel) instead of a spreadsheet grid.
-- **Local Execution:** Runs locally on your machine, utilizing your own hardware and network without cloud restrictions.
-- **Privacy-First:** Crawl data is stored locally in an SQLite database, not sent to a third-party server.
-- **Unlimited Potential:** No artificial SaaS limits on projects or URLs (limited only by your machine's resources).
-**How we do it differently:** We combined the power of an enterprise-grade crawler (Crawlee) with the beautiful UI of a modern web app, packaged as a fast Electron desktop tool.
-**Why that's better:** Users get the best of both worlds: the one-time-purchase or low-cost feel of a desktop app with the slick user experience of modern SaaS.
-**Why customers choose us:** They want a simple, beautiful tool that just works, without paying hundreds of dollars a month for crawl credits.
+Switching Dynamics
+Push: Tired of paying monthly SaaS fees or running out of crawl credits; frustrated by ugly, confusing desktop tools. Pull: A beautiful, intuitive interface that makes technical SEO easy to understand, with a clear dashboard and issue prioritization. Habit: Used to opening Screaming Frog purely out of muscle memory, even if they hate the interface. Anxiety: Worrying that a new tool won't catch all the nuanced technical SEO issues that established tools do.
 
-## Objections
-| Objection | Response |
-|-----------|----------|
-| My computer might be too slow for large crawls. | CrawlBeast uses a highly optimized concurrent crawler (Crawlee) and efficient local storage to minimize resource usage. |
-| I already have Ahrefs/Semrush. | CrawlBeast is perfect as a secondary, on-demand tool that doesn't eat up your monthly cloud crawl credits, and it can crawl your private staging sites that Ahrefs can't see. |
+Customer Language
+How they describe the problem:
 
-**Anti-persona:** Enterprise companies needing distributed, scheduled crawling of multi-million page ecommerce sites across hundreds of proxies.
+"I ran out of crawl credits this month."
+"My client's site tanked and I need to find the 404s fast."
+"I hate looking at this spreadsheet." How they describe us:
+"A beautiful alternative to traditional crawlers."
+"Fast and doesn't limit my projects."
+"Clean SEO dashboard." Words to use: Local, Unlimited, Privacy-first, Desktop App, Technical SEO, Audit Score, Beautiful UI, Lightning Fast. Words to avoid: Cloud, Subscription limits, Credits. Glossary: | Term | Meaning | |------|---------| | Orphan Page | A page on the website that has no internal links pointing to it. | | Canonical Mismatch | When a page's specified canonical URL differs from the actual page URL. | | Nofollow Link | An internal or external link that tells search engines not to pass authority. |
+Brand Voice
+Tone: Confident, modern, empowering, and straightforward. Style: Tech-forward but accessible. Clean, jargon-free explanations of technical issues. Personality: The sleek, modern professional.
 
-## Switching Dynamics
-**Push:** Tired of paying monthly SaaS fees or running out of crawl credits; frustrated by ugly, confusing desktop tools.
-**Pull:** A beautiful, intuitive interface that makes technical SEO easy to understand, with a clear dashboard and issue prioritization.
-**Habit:** Used to opening Screaming Frog purely out of muscle memory, even if they hate the interface.
-**Anxiety:** Worrying that a new tool won't catch all the nuanced technical SEO issues that established tools do.
+Proof Points
+Metrics: Generates a comprehensive 0-100 SEO health score based on 20+ technical checks. Customers: Marketers, agencies, and web developers. Testimonials: N/A (Product in development) Value themes:
 
-## Customer Language
-**How they describe the problem:**
-- "I ran out of crawl credits this month."
-- "My client's site tanked and I need to find the 404s fast."
-- "I hate looking at this spreadsheet."
-**How they describe us:**
-- "A beautiful alternative to traditional crawlers."
-- "Fast and doesn't limit my projects."
-- "Clean SEO dashboard."
-**Words to use:** Local, Unlimited, Privacy-first, Desktop App, Technical SEO, Audit Score, Beautiful UI, Lightning Fast.
-**Words to avoid:** Cloud, Subscription limits, Credits.
-**Glossary:**
-| Term | Meaning |
-|------|---------|
-| Orphan Page | A page on the website that has no internal links pointing to it. |
-| Canonical Mismatch | When a page's specified canonical URL differs from the actual page URL. |
-| Nofollow Link | An internal or external link that tells search engines not to pass authority. |
-
-## Brand Voice
-**Tone:** Confident, modern, empowering, and straightforward.
-**Style:** Tech-forward but accessible. Clean, jargon-free explanations of technical issues.
-**Personality:** The sleek, modern professional.
-
-## Proof Points
-**Metrics:** Generates a comprehensive 0-100 SEO health score based on 20+ technical checks.
-**Customers:** Marketers, agencies, and web developers.
-**Testimonials:** N/A (Product in development)
-**Value themes:**
-| Theme | Proof |
-|-------|-------|
-| Speed | Asynchronous crawling with controlled concurrency. |
-| Design | Modern React/Tailwind dashboard with clear issue categorization. |
-| Value | Desktop architecture eliminates expensive cloud computing costs. |
-
-## Goals
-**Business goal:** Launch the MVP, acquire initial early adopters, and convert free users to the upgraded paid tier.
-**Conversion action:** Download the desktop app and upgrade to a premium license.
-**Current metrics:** Pre-launch.
+Theme	Proof
+Speed	Asynchronous crawling with controlled concurrency.
+Design	Modern React/Tailwind dashboard with clear issue categorization.
+Value	Desktop architecture eliminates expensive cloud computing costs.
+Goals
+Business goal: Launch the MVP, acquire initial early adopters, and convert free users to the upgraded paid tier. Conversion action: Download the desktop app and upgrade to a premium license. Current metrics: Pre-launch.

@@ -13,6 +13,8 @@
 >
 > We just launched our gated free trial today.
 >
+> The first 100 users lock in founder pricing at **$29/mo** (normally $49/mo) for the first 12 months.
+>
 > Try it here (credit card required, cancel in 1 click): [Link in first comment]
 >
 > What's your biggest frustration with manual site audits? Let me know below. 👇
@@ -22,30 +24,44 @@
 ## 2. X (Twitter) Launch Thread Template
 
 ### Tweet 1 (Hook)
-> We built an SEO crawler 5x faster than Screaming Frog. 
+> We built a developer-grade SEO crawler 5x faster than Screaming Frog by stripping out the bloat.
 > 
-> Not by adding features. By stripping them out.
+> Crawl 1,000 pages in under 15 seconds.
 > 
-> Here is how we built **CrawlBeast** to automate technical audits for developers: 🧵
+> Here is the exact system we built: 🧵
 > [Insert Demo GIF/Video]
 
-### Tweet 2 (The Backstory)
-> Standard SEO tools are built for marketers. They are slow, bloated, and produce confusing spreadsheets.
+### Tweet 2 (Backstory/Pain)
+> Most SEO checkers tell you a link is broken. None tell you where it is.
 > 
-> As developers, we wanted a simple JSON API layer that maps internal link graphs and tracks link sources.
+> You spend 3 hours digging through pages just to find where a single 404 URL is hiding in your templates.
 > 
-> So we built a concurrent HEAD/GET fallback engine.
+> A massive waste of developer time. So we scoped a concurrent backend engine.
 
-### Tweet 3 (The Killer Feature)
-> Our core moat: Link Source Tracking.
+### Tweet 3 (Step 1 — Speed)
+> Step 1: Concurrent request pipeline.
 > 
-> Instead of: "This link is broken."
-> CrawlBeast tells you: "This link is broken, AND it is found on these 12 blog pages."
+> Built with HEAD + GET fallback optimization. It requests status codes without pulling down the whole HTML body unless needed.
 > 
-> Fix it in seconds, not hours.
+> Crawls 1,000 pages in under 15 seconds without breaking a sweat.
 
-### Tweet 4 (The Launch Offer)
-> We are live today. The first 100 users get locked into founder pricing at $29/mo (normally $49/mo) forever.
+### Tweet 4 (Step 2 — Traceability)
+> Step 2: Link Graph Mapping.
+> 
+> Instead of just: "This link is broken."
+> CrawlBeast maps the link graph to trace every broken link back to its exact origin pages.
+> 
+> Fix links in the source file in seconds, not hours.
+
+### Tweet 5 (Step 3 — Automation)
+> Step 3: Composable JSON output.
+> 
+> Because it is API-first, it outputs clean JSON ready for deploy scripts, continuous monitoring, and webhooks.
+> 
+> You can plug crawls directly into n8n or Zapier pipelines. Technical SEO is now programmable.
+
+### Tweet 6 (Launch Offer CTA)
+> We are live today. The first 100 users lock in founder pricing at $29/mo (normally $49/mo) for the first 12 months.
 > 
 > Start your 7-day card-gated trial here: [Link]
 
@@ -54,4 +70,5 @@
 ## 3. Direct Warm DM Outreach Script
 > "Hey [Name], saw you commented on [Competitor Name]'s site audit launch thread.
 > We built a developer-first crawler called CrawlBeast that traces broken links to their exact source pages in seconds (no manual searching).
-> Want to try it? I can set up a gated Pro trial for you: [Link]"
+> Want to try it? I can set up a gated Pro trial for you (founder pricing lock at $29/mo for 12 months): [Link]"
+

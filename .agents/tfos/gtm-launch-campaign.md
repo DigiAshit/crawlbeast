@@ -12,5 +12,5 @@ We will test three marketing channels concurrently for 60 days to find our prima
 ## 2. Product Hunt Launch Checklist
 - **Hook**: *"The only SEO crawler built for developers, not marketers. Audit link graphs in seconds."*
 - **Visuals**: Vertical GIFs demonstrating the Link Source Tracking feature (tracing a broken link to its origin pages).
-- **First Comment Offer**: Lock in the first 100 users at **$29/mo** (founder pricing) forever, instead of $49/mo, to drive early commitment.
+- **First Comment Offer**: Lock in the first 100 users at **$29/mo** (founder pricing) for 12 months, instead of $49/mo, to drive early commitment.
 - **Outreach Blast**: Trigger a DM blast to the mined engager lists announcing that the developer-first engine is live.

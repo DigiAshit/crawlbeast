@@ -16,11 +16,11 @@ graph TD
     A --> C[SEO Agency Founders]
     A --> D[In-House SEO Managers]
 
-    B --> B1[Angle 1: Tab Fatigue / Screaming Frog]
+    B --> B1[Angle 1: Tab Fatigue / Spreadsheet Overload]
     B --> B2[Angle 2: Client Reporting Speed]
     B --> B3[Angle 3: SaaS Credit Limits]
 
-    C --> C1[Angle 1: Multi-Client Dashboard]
+    C --> C1[Angle 1: Multi-Client Health Dashboard]
     C --> C2[Angle 2: Dev-Ready Handoff]
     C --> C3[Angle 3: SaaS Seat & Credit Inflation]
 
@@ -33,30 +33,30 @@ graph TD
 
 ## 📧 Campaign 1: The Freelance SEO
 
-### Sequence 1.1: The "Tab Fatigue" (Screaming Frog) Angle
-*Signal: `post_like` on a post discussing Screaming Frog's dense spreadsheet UI.*
+### Sequence 1.1: The "Tab Fatigue" (Audit Overload) Angle
+*Signal: `post_like` on a post discussing the dense UI of traditional crawl spreadsheets.*
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Hi [Name], noticed you liked my post on Screaming Frog's tab overload. Most freelancers spend hours sorting rows of raw data. We built CrawlBeast to auto-prioritize the highest-impact issues so you rank clients faster. 5 projects are free. Open to checking out the free version?
+> Hi [Name], I'm Ashit. Saw you're doing freelance SEO. I built a desktop crawler called CrawlBeast to fix the tab fatigue of traditional audit tools by auto-prioritizing the most critical issues. We have a free tier (5 sites/1,000 pages). Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `prioritised audits`
-> Thanks for connecting, [Name].
+> Hi [Name],
 > 
-> Beyond the UI, we found that 80% of client ranking drops are caused by just a few high-priority issues (like broken canonicals or redirect loops).
+> Thanks for connecting. 
 > 
-> CrawlBeast pulls those to the top of your dashboard instantly so you can build a client roadmap in minutes.
+> Most freelance SEOs spend hours digging through thousands of spreadsheet rows just to identify what's actually blocking client rankings. We built CrawlBeast to pull issues like redirect loops or broken canonicals to the top of your dashboard instantly.
 > 
-> I can share the link to our free tier (5 projects/1,000 pages) if you'd like to test it on your next audit?
+> Would you like to try it for your next audit?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `audit workflow`
-> Hey [Name], assuming your auditing workflow is set for now. 
+> Hi [Name],
 > 
-> If you ever want to save time prioritizing client fixes without digging through spreadsheet tabs, feel free to grab a free download at crawlbeast.com. 
+> Just wanted to check in. If you're open to testing a simpler way to run audits without getting lost in data tabs, you can download the free desktop app at crawlbeast.com. 
 > 
-> All the best with the client audits.
+> Best of luck with your freelance projects!
 
 ---
 
@@ -65,50 +65,52 @@ graph TD
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Hi [Name], thanks for stopping by my profile. Saw you're doing freelance SEO. Most consultants waste hours translating raw crawl spreadsheets into client recommendations. We built a desktop app that auto-generates prioritized, client-ready roadmaps. Worth checking out?
+> Hi [Name], I'm Ashit. Saw you're doing freelance SEO. I built a desktop crawler called CrawlBeast to help consultants turn crawls into prioritized, client-ready roadmaps quickly without sorting clunky spreadsheets. We have a free tier (5 sites). Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `client roadmaps`
-> Hey [Name],
+> Hi [Name],
 > 
-> Clients just want to see what is broken and how it affects their rankings, not look at 10,000 rows of Screaming Frog data. 
+> Thanks for connecting.
 > 
-> CrawlBeast filters out the minor noise and gives you a clean checklist of the top fixes.
+> We've found that clients just want to see what is broken and how it affects their search rankings, not parse massive spreadsheets. CrawlBeast filters out the unimportant noise and highlights your top recommendations.
 > 
-> Would it be useful to test it on your next client onboarding? (Up to 5 sites are free).
+> Would you like to try it on your next onboarding?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `client audits`
-> Hey [Name], closing the loop here. If client reporting ever becomes a bottleneck, you can download CrawlBeast for free at crawlbeast.com. 
+> Hi [Name],
 > 
-> Good luck with your client projects this quarter.
+> No worries if now isn't the right time. If you ever want to speed up how you report audits to clients, the free version is available at crawlbeast.com.
+> 
+> Have a great week!
 
 ---
 
 ### Sequence 1.3: The "SaaS Credit Limits" Angle
-*Signal: `pain_point_post` about running out of Semrush/Ahrefs monthly crawl credits.*
+*Signal: `pain_point_post` about running out of monthly crawl credits in cloud tools.*
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Hi [Name], saw your post about hitting SaaS crawl credit limits. Buying extra credits gets expensive fast when managing multiple client sites. We built a local desktop app with a free tier for 5 projects/1,000 pages so you can audit without billing limits. Worth exploring?
+> Hi [Name], I'm Ashit. Saw you're doing freelance SEO. I built a desktop crawler called CrawlBeast to help consultants audit sites locally without dealing with monthly cloud credit limits. Our free tier covers 5 projects/1,000 pages. Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `unlimited audits`
-> Hey [Name],
+> Hi [Name],
 > 
-> Because CrawlBeast runs locally using your machine's hardware, we don't charge for cloud credits.
+> Thanks for connecting.
 > 
-> You get a modern, prioritized dashboard for all your freelance clients without the subscription pressure.
+> Since CrawlBeast runs locally on your machine, you can run audits on-demand without worrying about extra billing or credit markups common in cloud SaaS tools.
 > 
-> I can drop the free download link if you'd like to try it?
+> Would you like to try it for your client sites?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `free audit tool`
-> Hey [Name], assuming you have your audit tool budget sorted. 
+> Hi [Name],
 > 
-> If you ever want to run on-demand crawls without credit limits, we're at crawlbeast.com. 
+> Assuming your audit tools are all set for now. If you ever want to run on-demand client crawls without SaaS credit constraints, feel free to try it at crawlbeast.com.
 > 
-> Cheers.
+> Best,
 
 ---
 
@@ -119,48 +121,52 @@ graph TD
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Hi [Name], thanks for the follow. If you're managing 10+ client sites, keeping track of technical health usually means jumping between clunky sheets. We built a single dashboard that prioritizes critical ranking blockers across all projects in one view. Worth a quick look?
+> Hi [Name], I'm Ashit. Saw you're running an SEO agency. I built a desktop crawler called CrawlBeast to track multiple client sites in a single dashboard that prioritizes critical ranking blockers, rather than jumping between clunky sheets. Free for 5 projects. Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `site health monitoring`
-> Hey [Name],
+> Hi [Name],
 > 
-> We found that agencies lose clients when technical errors (like redirect loops or broken canonicals) go unnoticed for weeks.
+> Thanks for connecting.
 > 
-> CrawlBeast acts as a central hub, giving your team a prioritized SEO health score for all clients in one screen.
+> When you're managing dozens of client sites, keeping track of technical health is difficult. Technical errors like redirect loops can go unnoticed for weeks, hurting retention. We built CrawlBeast to aggregate everything into a single, prioritized health view.
 > 
-> You can set up 5 client sites for free. Would a quick preview link be useful?
+> Would you like to try it with your team?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `agency site health`
-> Hey [Name], I'll stop checking in. If you ever need a simpler way to track multiple site audits in one dashboard to protect client retention, you can download CrawlBeast at crawlbeast.com. 
+> Hi [Name],
 > 
-> Good luck with scaling the agency.
+> Closing the loop here. If you ever want to simplify how your team monitors client technical health across multiple sites, you can grab a free download at crawlbeast.com.
+> 
+> All the best with scaling the agency.
 
 ---
 
 ### Sequence 2.2: The "Dev-Ready Hand-off" Angle
-*Signal: `hiring_adjacent_role` (agency hiring SEO specialists or account managers).*
+*Signal: `hiring_adjacent_role` (agency hiring SEO specialists).*
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Hi [Name], saw you're expanding your SEO team. Congrats. Most agency teams waste hours explaining spreadsheet audits to client developers. We built a tool that turns crawls into prioritized, dev-ready roadmaps to get fixes shipped faster and protect client retention. Worth a look?
+> Hi [Name], I'm Ashit. Saw you're running an SEO agency. I built a desktop crawler called CrawlBeast to help teams turn crawls into prioritized, dev-ready lists. It translates technical errors into plain tasks so developers implement fixes faster. Free for 5 projects. Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `developer handoff`
-> Hey [Name],
+> Hi [Name],
 > 
-> Getting client developers to execute is usually the biggest bottleneck in technical SEO. 
+> Thanks for connecting.
 > 
-> CrawlBeast translates raw technical issues into plain-language tasks, showing developers exactly what to fix first to improve rankings.
+> Getting client developers to execute is usually the biggest agency bottleneck. Handing them raw crawl spreadsheets often leads to delays. CrawlBeast translates those issues into clear, prioritized checklists so developers know exactly what to fix.
 > 
-> Our free tier allows up to 5 projects. Would it be helpful to see how it works?
+> Would you like to try it for your team's audits?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `client dev handoff`
-> Hey [Name], closing the loop. If dev hand-off ever becomes a bottleneck for your team's client work, you can find our templates and desktop tool at crawlbeast.com. 
+> Hi [Name],
 > 
-> All the best.
+> No worries if your audit processes are locked in. If dev hand-off ever becomes a blocker for getting client recommendations shipped, we're at crawlbeast.com.
+> 
+> Cheers,
 
 ---
 
@@ -169,81 +175,81 @@ graph TD
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Hi [Name], saw your comment on tool price increases. Paying SaaS seat licenses and crawl credit markups gets expensive as you scale clients. We built a local desktop app with flat pricing and a free tier for 5 projects/1,000 pages so you can protect your margins. Worth exploring?
+> Hi [Name], I'm Ashit. Saw you're running an SEO agency. I built a desktop crawler called CrawlBeast to help agencies avoid expensive monthly SaaS seat licenses and crawl credit markups. Since it runs locally, you get cost predictability. Free for 5 projects. Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `protecting agency margins`
-> Hey [Name],
+> Hi [Name],
 > 
-> Most agency founders we talk to are tired of paying Ahrefs/Semrush extra monthly fees just to run standard technical audits.
+> Thanks for connecting.
 > 
-> Since CrawlBeast runs locally, you audit client sites without cloud markup, allowing flat-rate cost predictability.
+> Most agency founders are tired of paying extra monthly fees for additional team seats or extra crawl credits. Because CrawlBeast runs on your own hardware, we don't charge SaaS cloud markups.
 > 
-> Open to checking out the free version?
+> Would you like to try it for your team?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `agency audit tool`
-> Hey [Name], assuming you're set with your agency's software budget. 
+> Hi [Name],
 > 
-> If you ever want to lower your technical SEO tool costs, you can get a free download at crawlbeast.com. 
+> Assuming you're set with your tool stack. If you ever want to lower your agency's recurring software costs for technical audits, feel free to try it at crawlbeast.com.
 > 
-> Cheers.
+> Best,
 
 ---
 
 ## 📧 Campaign 3: The In-House SEO / Manager
 
 ### Sequence 3.1: The "Traffic Blocker Discovery" Angle
-*Signal: `job_change` (started a new role as SEO Manager or Director).*
+*Signal: `job_change` (started a new role as SEO Manager).*
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Congrats on the new role, [Name]. If you're auditing your new site, digging through Screaming Frog tabs to find traffic blockers is a headache. We built a desktop app that auto-prioritizes the highest-impact issues so you know what's blocking rankings fast. Worth a quick look?
+> Hi [Name], I'm Ashit. Saw you're managing SEO in-house. I built a desktop crawler called CrawlBeast to help in-house teams detect major traffic blockers (like redirect loops or broken canonicals) instantly, without digging through clunky spreadsheets. Free for 5 sites. Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `traffic blocker alerts`
-> Hey [Name],
+> Hi [Name],
 > 
-> When subdirectory traffic drops, the bottleneck is usually sorting through thousands of rows of minor data to find the root cause.
+> Thanks for connecting.
 > 
-> CrawlBeast pulls redirect loops, broken canonicals, and indexing errors to the top of your dashboard instantly.
+> When you experience a sudden traffic drop, finding the root cause quickly is essential. CrawlBeast runs a local crawl and auto-prioritizes the highest-impact technical blockers right at the top of your dashboard.
 > 
-> You can crawl up to 1,000 pages across 5 sites for free. Worth testing?
+> Would you like to try it on your site?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `audit workflow`
-> Hey [Name], assuming you have the new site audit handled. 
+> Hi [Name],
 > 
-> If you ever need to diagnose traffic drops faster without spreadsheet clutter, we're at crawlbeast.com. 
+> Closing the loop here. If you ever need to diagnose ranking drops or audit your site without the typical spreadsheet clutter, you can download it for free at crawlbeast.com.
 > 
-> All the best in the new role.
+> All the best with your search growth goals.
 
 ---
 
-### Sequence 3.2: The "Engineering Buy-in" Angle
+### Sequence 3.2: The "Engineering Buy-In" Angle
 *Signal: `poll_vote` on a poll asking "What is your biggest blocker to SEO execution?".*
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Hi [Name], noticed you voted "dev implementation" as your biggest SEO blocker. Handing devs a spreadsheet with 10k rows usually means it gets pushed to the bottom of the backlog. We turn crawls into clean, prioritized dev-ready lists to make engineering buy-in easy. Worth exploring?
+> Hi [Name], I'm Ashit. Saw you're managing SEO in-house. I built a desktop crawler called CrawlBeast to turn crawls into prioritized, dev-ready lists. This translates technical errors into plain tasks so you can get engineering buy-in and get fixes shipped. Free for 5 sites. Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `prioritizing fixes`
-> Hey [Name],
+> Hi [Name],
 > 
-> Developers ignore raw crawls because they don't have time to parse them. 
+> Thanks for connecting.
 > 
-> CrawlBeast filters out the unimportant crawl data and gives you a prioritized, dev-friendly action plan to get fixes shipped.
+> Getting developers to prioritize SEO fixes is a common challenge. Giving them raw crawl lists usually gets them pushed to the bottom of the backlog. CrawlBeast formats crawls into a prioritized checklist that engineers can understand and execute.
 > 
-> Up to 5 projects are completely free. Open to testing it?
+> Would you like to try it?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `dev implementation`
-> Hey [Name], assuming dev buy-in isn't an issue right now. 
+> Hi [Name],
 > 
-> If you ever want to turn crawls into prioritized dev tickets faster, you can grab CrawlBeast for free at crawlbeast.com. 
+> Assuming your dev workflows are running smoothly. If you ever want to speed up your engineering hand-offs for site fixes, you can grab CrawlBeast for free at crawlbeast.com.
 > 
-> Good luck with your growth goals.
+> Have a great week!
 
 ---
 
@@ -252,22 +258,22 @@ graph TD
 
 #### 1. Connection Request Note (Touch 1) — Max 300 Chars
 * **Subject line:** `connection note`
-> Hi [Name], saw your post on audit fatigue. Most in-house teams spend 3-4 hours per site just translating technical crawls into action plans. We built a desktop app that automates that sorting, surfacing top-priority issues instantly in a clean dashboard. Worth a quick test?
+> Hi [Name], I'm Ashit. Saw you're managing SEO in-house. I built a desktop crawler called CrawlBeast to help teams save time on monthly audits by auto-prioritizing crawl data into an actionable checklist the moment it finishes. Free tier for 5 projects. Open to trying it?
 
 #### 2. Follow-Up Message (Touch 2) — After Acceptance
 * **Subject line:** `audit productivity`
-> Hey [Name],
+> Hi [Name],
 > 
-> CrawlBeast replaces slow manual sorting by generating a prioritized action checklist the moment the crawl finishes.
+> Thanks for connecting.
 > 
-> It saves about 3 hours per audit, and you can crawl up to 5 sites for free.
+> Most in-house SEOs spend hours manual-sorting crawl data just to decide what to fix first. CrawlBeast automates this prioritization, saving hours of manual audit preparation.
 > 
-> Open to checking out the free version?
+> Would you like to try it for your site audits?
 
 #### 3. Breakup Message (Touch 3)
 * **Subject line:** `seo workflow`
-> Hey [Name], closing the loop here. 
+> Hi [Name],
 > 
-> If you ever want to save a few hours on your monthly technical audits, you can download CrawlBeast for free at crawlbeast.com. 
+> No worries. If you ever want to optimize your monthly technical audit workflow and save a few hours of manual sorting, you can download CrawlBeast for free at crawlbeast.com.
 > 
-> All the best.
+> Cheers,

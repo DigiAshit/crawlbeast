@@ -1,11 +1,3 @@
-# CrawlBeast Copywriting Draft
-
-This copywriting draft is optimized for the **CrawlBeast** landing page. It implements conversational Tweet Hunter-style agitation, reduced feature word counts, the core **Link Source Tracking** USP, and an expanded listing of technical issues (including missing H1s, orphan pages, external follow links, and AI search crawler bot blocking).
-
----
-
-## 1. Hero Section
-**Psychological Job:** Hook [Agitate unseen risk] + Promise [Zero-guesswork solution with target keywords] + Frictionless Action [Explicitly free tier, no trial catch].
 
 ### Main H1 Headline
 > Turn SEO Insights
@@ -20,9 +12,7 @@ This copywriting draft is optimized for the **CrawlBeast** landing page. It impl
 
 ---
 
-## 2. Agitation Section (Conversational Tweet Hunter Style)
-**Psychological Job:** Connect on shared pain points (VOC language) and contrast traditional limitations with local speed.
-
+## 2. 
 ### Header
 > Are you spending hours on clunky spreadsheets every week?
 > Getting unsatisfying results for your business or clients?
@@ -37,20 +27,20 @@ This copywriting draft is optimized for the **CrawlBeast** landing page. It impl
 
 ---
 
-## 3. "Why SEO Professionals Are Switching To CrawlBeast" Section
+## 3. "Why SEO Professionals Are Switching To CrawlBeast"
 **Psychological Job:** Social proof & category positioning. Highlight our biggest unique selling proposition (USP).
 
 ### Headline
 > The SEO Crawler That Tells You What to Fix First.
 
-### Audience Breakdown (Reduced Content)
+### Audience Breakdown 
 *   **Agencies:** Scale onboarding. Audit portfolios in minutes without burning SaaS monthly credits.
 *   **Freelancers:** Win retainers with professional, prioritized audits that prove immediate value.
 *   **Business Owners:** Stop guessing. Find crawl blocks and verify your site's search health in under 5 minutes.
 
 ---
 
-## 4. CrawlBeast Feature Suite (Reduced Word Count)
+## 4. CrawlBeast Feature Suite 
 **Psychological Job:** Value demonstration. Detail exactly how our features solve their daily technical struggles.
 
 *   **Link Source Tracking (USP):** CrawlBeast tells you *exactly* where a broken link was found, not just that it exists.
@@ -62,7 +52,6 @@ This copywriting draft is optimized for the **CrawlBeast** landing page. It impl
 ---
 
 ## 5. Technical SEO Issues CrawlBeast Finds Instantly
-**Psychological Job:** Transparency and proof. List the exact technical bugs the site audit crawler resolves.
 
 *   **Broken Paths:** 404 links, 500 server errors, and redirect loops.
 *   **Meta & Structure Blindspots:** Missing H1 tags, missing or duplicate meta titles and descriptions, and image alt tag gaps.
@@ -72,23 +61,4 @@ This copywriting draft is optimized for the **CrawlBeast** landing page. It impl
 
 ---
 
-## 6. Pricing / Tier Breakdown
-**Psychological Job:** Reassurance. Eliminate price resistance by highlighting the value-packed free tier.
 
-| Plan | Features | Price |
-| :--- | :--- | :--- |
-| **Free Version** *(Free Forever)* | • Crawl up to 1,000 URLs<br>• Manage 5 active projects<br>• Core SEO checks (meta tags, broken links, images)<br>• Desktop sqlite database storage<br>• Community support | **$0** (No credit card needed) |
-| **Pro Plan** *(For Pros)* | • Crawl up to 20,000 URLs<br>• Manage 100 active projects<br>• Advanced checks (JS rendering, schema verification)<br>• Faster crawling performance<br>• Email support | **$12 / month** |
-| **Advanced Plan** *(For Agencies)* | • Crawl up to 100,000 URLs<br>• Unlimited active projects<br>• Priority crawl speed settings<br>• White-label PDF & CSV reports<br>• Direct developer support | **$22 / month** |
-
----
-
-## 7. FAQs (Clarifying Free Version Autonomy)
-**Psychological Job:** Objection preemption. Clear up remaining skepticism about desktop software and pricing structure.
-
-*   **Is the Free Version really free forever, or is it a trial?**
-    The Free Version is 100% free forever. We do not require a credit card to sign up, and we do not automatically upgrade you. You can manage 5 projects and crawl up to 1,000 URLs completely free of charge.
-*   **Why is CrawlBeast built as a desktop application instead of a cloud SaaS?**
-    SaaS tools run on cloud servers, which means they charge you monthly for every page they crawl. Because CrawlBeast runs locally on your machine's hardware, it is faster, keeps your crawl data 100% private, and allows us to offer unlimited crawling capabilities at a fraction of the cost.
-*   **What technical checks does the site audit crawler perform?**
-    It audits for broken internal/external links (404 errors), redirect loops (301/302), missing or duplicate meta titles and descriptions, canonical tag mismatches, missing image alt attributes, and JavaScript rendering blocks.

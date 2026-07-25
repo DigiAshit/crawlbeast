@@ -11,6 +11,8 @@ secondary_keywords:
   - "seo audit reporting"
   - "website audit report template"
 search_intent: "Informational / template guide"
+format_intent: "Template guide / process guide"
+editorial_path: "Hybrid: practical reporting framework with evidence and reusable examples"
 target_url: "/website-audit-report/"
 internal_links:
   - "/seo-audit-reporting/"
@@ -33,6 +35,10 @@ A website audit report is a client-ready document that explains what is wrong wi
 The search intent for "website audit report" is informational with template intent. Searchers usually want to know what sections to include, how to structure findings, and how to make a report useful for clients, developers, and internal marketing teams.
 
 This guide explains what a strong website audit report should include. For the broader reporting cluster, see our guide to [SEO audit reporting](/seo-audit-reporting/). If you need a reusable format, pair this with an [SEO audit report template](/seo-audit-report-template/).
+
+### Common question: What should a website audit report include?
+
+A client-ready report should include the scope and data date, an executive summary, evidence-backed findings, priority levels, affected URLs or templates, recommended fixes, owners, acceptance criteria, and a validation plan. Add performance, content, accessibility, or conversion sections only when they are in scope and supported by evidence.
 
 ## What Is a Website Audit Report?
 
@@ -107,6 +113,12 @@ You can include:
 
 This is where CrawlBeast can help agencies convert crawl data into a clearer reporting workflow. Instead of manually pulling numbers from separate files, teams can use CrawlBeast to collect technical SEO findings and shape them into report-ready insights.
 
+### Use statistics as evidence, not decoration
+
+Include counts and percentages when they help the client understand scale: for example, the number of affected URLs, the share of indexable pages with duplicate titles, or the percentage of sitemap entries returning redirects. Every number should show its source, crawl date, URL scope, and calculation method. Never fill a chart with invented benchmarks or use a health score whose formula the client cannot inspect.
+
+For performance reports, use field data where available and explain the device mix and coverage. Google's [Core Web Vitals guidance](https://web.dev/articles/vitals) defines the current benchmark thresholds; the [Core Web Vitals benchmark visual](images/seo-audit-core-web-vitals-benchmarks.svg) can be reused when the report includes performance findings.
+
 ## 4. Technical SEO Findings
 
 Technical SEO findings are the core of most website audit reports.
@@ -174,6 +186,22 @@ Example priority levels:
 
 For recurring client communication, this section can feed directly into a [client SEO report](/client-seo-report/) or monthly implementation tracker.
 
+### Recommended finding format
+
+Use the same compact structure for every important issue:
+
+| Field | Example |
+|---|---|
+| Finding | Canonical tags on product pages point to category URLs |
+| Evidence | 184 of 1,240 product URLs in the crawl |
+| Why it matters | Search engines may consolidate signals away from the intended pages |
+| Recommendation | Generate self-referencing canonicals for indexable product URLs |
+| Owner | Developer |
+| Priority | High |
+| Acceptance criteria | Re-crawl confirms the intended canonical on all in-scope templates |
+
+This format makes the report useful to executives, SEOs, and developers without forcing every reader through the raw export.
+
 ## 7. Implementation Plan
 
 A website audit report should make next steps obvious.
@@ -202,6 +230,10 @@ Validation usually includes:
 - Updating the client on completed fixes
 
 This connects the report back to the broader [SEO audit workflow](/seo-audit-workflow/) and helps agencies show progress over time.
+
+### Common question: How long should a website audit report be?
+
+Long enough to support the decisions and implementation, but not so long that the priorities disappear. A short executive report with a linked technical appendix is often better than one giant document. The right length depends on site size, audit scope, number of templates, and the people who must approve or implement the work.
 
 ## Website Audit Report vs Technical SEO Report
 
@@ -251,9 +283,32 @@ Reports should include a validation plan so the agency can confirm fixes and sho
 
 If your site has related guides, reports, templates, and software pages, connect them. A report-focused article should naturally link to the [SEO audit tool for agencies](/seo-audit-tool-for-agencies/) page, workflow pages, reporting templates, and related issue guides.
 
+## Questions Clients Usually Ask
+
+### What is the difference between a website audit and an SEO audit?
+
+A website audit can cover broader concerns such as usability, accessibility, security, analytics, and conversion paths. An SEO audit focuses on discoverability, crawlability, indexability, search appearance, content alignment, internal links, performance, and authority. Define the scope so the client knows which questions the report does and does not answer.
+
+### Should every issue found by a crawler appear in the main report?
+
+No. Include findings that affect the agreed scope, explain a meaningful risk or opportunity, or help the client make a decision. Put low-impact observations and complete URL exports in an appendix or backlog. Filtering is part of the agency's value.
+
+### Can AI generate a website audit report?
+
+AI can help group similar rows, summarize evidence, and draft plain-language explanations. It should not invent counts, infer business impact without context, or publish recommendations without human verification. Follow Google's [generative AI content guidance](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) and preserve the underlying evidence for review.
+
+For a visual explanation of crawling, indexing, and Search Console topics, use a relevant current video from the [Google Search Central YouTube channel](https://www.youtube.com/@GoogleSearchCentral). Add a specific embed only when it supports the surrounding section and is still accurate.
+
 ## Final Recommendation
 
 A strong website audit report makes technical SEO understandable and actionable. It should include an executive summary, scope, health overview, technical findings, on-page findings, prioritized recommendations, an implementation plan, and a validation process.
 
 CrawlBeast helps agencies create better website audit reports by supporting technical website crawling, issue detection, and repeatable audit workflows. Use it with a clear reporting structure, and your client reports become easier to explain, approve, and act on.
 
+## Sources and Editorial Notes
+
+- [Google Search Essentials](https://developers.google.com/search/docs/essentials)
+- [Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Google's guidance on generative AI content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content)
+- [Google Search visual elements gallery](https://developers.google.com/search/docs/appearance/visual-elements-gallery)
+- [Core Web Vitals](https://web.dev/articles/vitals)

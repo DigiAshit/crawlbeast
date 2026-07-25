@@ -11,6 +11,8 @@ secondary_keywords:
   - "seo audit process"
   - "website audit workflow"
 search_intent: "Informational / process guide"
+format_intent: "Step-by-step guide / process guide"
+editorial_path: "Hybrid: comprehensive process with evidence-led recommendations"
 target_url: "/how-agencies-perform-seo-audits/"
 internal_links:
   - "/seo-audit-workflow/"
@@ -28,186 +30,269 @@ cta: "Use CrawlBeast to standardize technical SEO audits across client websites.
 
 ![Agency SEO audit workflow dashboard](images/how-agencies-perform-seo-audits-hero.svg)
 
-Agencies perform SEO audits by following a repeatable workflow: define the scope, crawl the website, review technical SEO issues, prioritize the findings, create a client-ready report, assign fixes, and monitor progress after implementation.
+Agencies perform SEO audits by following a repeatable workflow: define the business goal, collect the right evidence, crawl the site, diagnose issues by workstream, prioritize the findings, turn them into an action plan, and validate the fixes.
 
-That process sounds straightforward, but agency audits have more moving parts than one-off website reviews. Teams need to manage client expectations, compare issues across large sites, explain technical problems clearly, and make sure every account gets the same baseline level of quality.
+The important distinction is that an agency audit is not just a tool export. It is a decision-making process. The agency has to explain which problems affect search visibility or conversions, which team owns each fix, and what should happen next.
 
-This guide explains how agencies perform SEO audits in a practical, repeatable way. If you want the broader hub for this cluster, start with the [SEO audit workflow](/seo-audit-workflow/) page. If you are still choosing software, compare options in our guide to the best [SEO audit tool for agencies](/seo-audit-tool-for-agencies/).
+This guide shows how agencies perform SEO audits from kickoff through re-crawl. It also explains where tools such as CrawlBeast fit, how to use data without creating false precision, and how to make the final report useful to both marketing and development teams. For the complete cluster, see our [SEO audit workflow](/seo-audit-workflow/). If you are comparing software, start with the [best SEO audit tools for agencies](/seo-audit-tool-for-agencies/).
 
 ## Agency SEO Audit Process at a Glance
 
 ![SEO audit process map for agencies](images/agency-seo-audit-process-map.svg)
 
-| Step | What the Agency Does | Main Output |
+| Phase | What the agency does | Main output |
 |---|---|---|
-| 1. Scope the audit | Confirm goals, website areas, access, and business priorities | Audit brief |
-| 2. Crawl the website | Use a crawler to collect technical SEO data | Crawl dataset |
-| 3. Review technical issues | Check indexability, status codes, metadata, canonicals, links, and sitemaps | Issue list |
-| 4. Prioritize findings | Sort problems by severity, affected URLs, and business impact | Priority backlog |
-| 5. Create the report | Translate findings into client-friendly recommendations | Website audit report |
-| 6. Assign fixes | Route tasks to content, developers, SEO, or client teams | Action plan |
-| 7. Validate changes | Re-crawl and confirm fixes worked | Fix validation |
-| 8. Monitor over time | Repeat audits monthly or quarterly | Ongoing SEO health view |
+| 1. Scope | Confirm goals, property, access, templates, markets, and constraints | Audit brief |
+| 2. Establish a baseline | Combine crawl data with Search Console, analytics, sitemap, and change history | Evidence set |
+| 3. Crawl | Collect URL, link, directive, metadata, and response data | Crawl dataset |
+| 4. Diagnose | Review technical, content, architecture, performance, and off-page signals | Findings |
+| 5. Prioritize | Score issues by impact, scale, confidence, and effort | Prioritized backlog |
+| 6. Report | Explain the issue, evidence, recommendation, owner, and acceptance criteria | Client report |
+| 7. Implement and validate | Assign work, re-crawl, and confirm the change in production | Fix log |
+| 8. Monitor | Repeat the checks and compare against the baseline | Ongoing SEO health view |
 
-## 1. Start With Scope and Client Goals
+## What Should an Agency Audit First?
 
-Before opening a crawler, agencies need to understand why the audit is happening.
+Agencies should audit access and indexability before spending time on page-level refinements. A useful order is:
 
-An SEO audit for a new client is different from a quarterly checkup. A migration audit is different from an ecommerce cleanup. A lead generation website has different priorities than a large publisher or marketplace.
+1. Can search engines reach the important pages?
+2. Are the right pages eligible for indexing?
+3. Does the site architecture make those pages discoverable?
+4. Do templates communicate the page topic clearly?
+5. Does the content satisfy the searcher and the business goal?
+6. Are performance, structured data, and links creating avoidable friction?
 
-At the start, agencies usually define:
+This order prevents teams from polishing pages that cannot be crawled, indexed, or found through the internal link graph. It also makes the report easier to defend because each recommendation follows from observed evidence.
 
-- The domain, subdomains, and staging environments to review
-- Priority templates, categories, or landing pages
-- Known issues from the client or previous SEO work
-- CMS, platform, and development constraints
-- Target markets and languages
-- Reporting expectations
-- Timeline for recommendations and fixes
+## 1. Scope the Audit Around the Client's Goal
 
-This prevents the audit from turning into a generic list of technical issues. A good agency audit connects SEO findings to the client’s goals.
+Before opening a crawler, the agency defines what the audit must help the client decide. A migration audit, a traffic-drop investigation, a new-business audit, and a quarterly health check should not use the same scope.
 
-## 2. Crawl the Website
+Capture:
 
-The crawl is the foundation of most technical SEO audits.
+- Domain, subdomains, staging environments, and URL exclusions
+- Business-critical templates, folders, products, services, or locations
+- Primary conversions and priority landing pages
+- Target countries, languages, devices, and search markets
+- CMS, rendering setup, deployment process, and development constraints
+- Known incidents, migrations, algorithm updates, or recent releases
+- Available Search Console, analytics, log-file, backlink, and sitemap access
+- Report audience, deadline, delivery format, and expected level of technical detail
 
-Agencies use a [website crawler for agencies](/website-crawler-for-agencies/) to collect data across URLs, links, status codes, metadata, headings, canonicals, directives, and site structure. Tools like CrawlBeast help agencies crawl client websites consistently, so the same checks are applied across accounts.
+Write the scope in one sentence, such as: “Audit the production ecommerce site to identify indexability and template problems affecting category and product pages before the next migration.” That sentence becomes a filter for every finding.
 
-During the crawl, agencies usually look for:
+### Common question: How long does an agency SEO audit take?
 
-- 3xx, 4xx, and 5xx status codes
-- Broken internal links
+It depends on the website size, access, scope, and depth of analysis. A small, focused audit may take days; a large enterprise or migration audit can take several weeks. Agencies should estimate from the number of templates, URLs, data sources, and stakeholders involved rather than promise a fixed duration for every site.
+
+## 2. Establish a Baseline Before the Crawl
+
+A crawl explains what the site exposes to a crawler. It does not, by itself, explain which URLs receive impressions, clicks, conversions, or real search-engine attention. Agencies therefore combine several evidence sources before writing recommendations.
+
+Useful inputs include:
+
+- Crawler data for URLs, links, responses, metadata, canonicals, directives, and depth
+- Google Search Console for queries, impressions, clicks, indexing signals, and manual actions
+- Analytics for landing-page engagement and conversions
+- XML sitemaps and robots.txt
+- PageSpeed Insights or Lighthouse for performance diagnostics
+- Deployment and migration history
+- Backlink and competitor data where authority or discovery is part of the brief
+- Client interviews, sales priorities, and known customer journeys
+
+Record the date and source of each dataset. A recommendation based on a crawl from last year should not be presented as a current diagnosis.
+
+The [Google Search Essentials](https://developers.google.com/search/docs/essentials) and [helpful content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) are useful editorial and technical guardrails, but they do not replace evidence from the client's own site.
+
+## 3. Crawl the Website Consistently
+
+The crawl is the repeatable collection layer of the audit. Agencies use a [website crawler for agencies](/website-crawler-for-agencies/) to collect URL, response, link, metadata, heading, canonical, directive, and site-structure data at a consistent baseline.
+
+During the crawl, check for:
+
+- 3xx, 4xx, and 5xx responses
 - Redirect chains and loops
-- Missing, duplicate, or weak title tags
-- Missing or duplicate meta descriptions
-- Missing H1 tags or multiple H1 tags
-- Canonical tag problems
-- Noindex and robots.txt conflicts
-- XML sitemap issues
-- Crawl depth and internal linking problems
+- Broken internal links
+- Missing, duplicated, or weak title tags and meta descriptions
+- Missing or repeated H1 headings
+- Canonical conflicts
+- Robots.txt and noindex conflicts
+- XML sitemap errors
+- Excessive crawl depth
 - Orphan pages
+- Duplicate URL variants and parameter handling problems
+- Important resources or content that require rendering to appear
 
-For deeper technical checks, agencies may also use a dedicated [technical SEO audit tool for agencies](/technical-seo-audit-tool-for-agencies/) alongside Google Search Console and analytics data.
+Tools should make patterns visible, not turn every detected condition into an urgent recommendation. For deeper technical checks, agencies may combine CrawlBeast with Google Search Console, analytics, PageSpeed Insights, and a [technical SEO audit tool for agencies](/technical-seo-audit-tool-for-agencies/).
 
-## 3. Review Crawlability and Indexability First
+## 4. Diagnose the Audit by Workstream
 
-Crawlability and indexability issues usually come before cosmetic on-page improvements.
+An agency report becomes easier to act on when findings are grouped by the team or system that can fix them.
 
-If important pages cannot be crawled, are blocked by robots.txt, return the wrong status code, or carry the wrong indexation directive, other SEO work may not matter. Agencies typically review these issues early because they affect whether search engines can access and include pages in search results.
+### Crawlability and indexability
 
-High-priority checks include:
+Review whether important pages are accessible, eligible for indexing, and represented accurately in sitemaps. High-priority examples include a robots.txt rule blocking a revenue folder, a noindex directive on a canonical page, or a sitemap containing redirected URLs.
 
-- Important pages blocked by robots.txt
-- Important pages marked noindex
-- Canonical tags pointing to the wrong URL
-- Redirects that prevent search engines from reaching key pages
-- Internal links pointing to broken or redirected URLs
-- XML sitemaps containing non-indexable or broken URLs
-- Important pages missing from the crawl
+Do not confuse “discovered by the crawler” with “indexed by Google.” Use crawl evidence and Search Console evidence together, and state the limitation when the data cannot prove a conclusion.
 
-This stage often reveals the issues that need developer attention first.
+### Site architecture and internal links
 
-## 4. Analyze On-Page and Template-Level Issues
+Review how users and crawlers move from navigation and hub pages to priority content. Look for orphan pages, deep pages, irrelevant links, redirecting links, and important pages that receive little internal prominence.
 
-Once crawlability and indexability are reviewed, agencies move into on-page and template-level problems.
+Internal linking is also a useful recommendation because it can connect a technical finding to a practical content or architecture change. Link relevant supporting resources such as the [technical SEO issues](/technical-seo-issues/) guide and the [SEO audit template](/seo-audit-template/) where the reader needs a next step.
 
-This includes metadata, headings, duplicate patterns, content structure, and internal linking. The goal is not to rewrite every page manually. The goal is to find patterns that can be fixed at scale.
+### Templates and on-page signals
 
-For example, an agency might find:
+Look for patterns rather than isolated page defects. Examples include product pages sharing one title template, category pages with inconsistent canonicals, blog pages missing descriptions, or faceted URLs creating duplicate crawl paths.
 
-- All product pages use duplicate title tags
-- Blog posts are missing meta descriptions
-- Category pages have multiple H1 tags
-- Pagination uses inconsistent canonical tags
-- Important landing pages sit too deep in the site architecture
-- Internal links point to old redirected URLs
+For each pattern, identify the affected template, a representative URL, the number or percentage of affected URLs, and the proposed template-level fix.
 
-These findings are easier to fix when they are grouped by template, CMS field, or website section.
+### Content quality and search intent
 
-## 5. Prioritize Issues by Impact
+An audit should review whether important pages answer the query they target, demonstrate useful expertise, and support the user's next action. Check thin or overlapping pages, cannibalization, outdated information, missing comparison content, weak category copy, and pages that attract impressions but do not satisfy the likely intent.
 
-Clients do not need every issue at once. They need to know what matters most.
+Google's guidance on [creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) is especially relevant here. The objective is not to add keywords mechanically; it is to make the page more useful and trustworthy for the people who need it.
 
-Agencies prioritize SEO audit findings by combining technical severity with business impact. A broken internal link on a low-value archive page is not the same as a canonical problem across all money pages.
+### Performance and mobile experience
 
-Useful prioritization criteria include:
+Use field data when available, then use lab diagnostics to investigate likely causes. A useful benchmark visual is below; the thresholds come from Google's [Core Web Vitals documentation](https://web.dev/articles/vitals).
 
-- Whether affected pages are important to revenue or lead generation
-- Number of affected URLs
-- Whether pages are indexable
-- Whether pages receive traffic or conversions
-- Whether the issue is template-level or one-off
-- Whether the fix requires development, content, or SEO ownership
-- Whether the issue blocks future SEO work
+![Core Web Vitals benchmark thresholds](images/seo-audit-core-web-vitals-benchmarks.svg)
 
-This is where CrawlBeast can help agencies move from raw crawl findings to a cleaner technical audit workflow. Instead of handing clients a long export, teams can group issues into clear priorities.
+| Metric | Good | Needs improvement | Poor |
+|---|---:|---:|---:|
+| Largest Contentful Paint (LCP) | 2.5s or less | 2.5–4s | More than 4s |
+| Interaction to Next Paint (INP) | 200ms or less | 200–500ms | More than 500ms |
+| Cumulative Layout Shift (CLS) | 0.1 or less | 0.1–0.25 | More than 0.25 |
 
-## 6. Create a Client-Ready Website Audit Report
+The numbers are benchmarks, not a reason to label every slow page a ranking emergency. Explain the affected templates, user impact, field-data coverage, likely owner, and proposed acceptance test.
 
-The report is where the agency turns technical SEO data into decisions.
+### Structured data, images, and search appearance
 
-A strong [website audit report](/website-audit-report/) should explain what was found, why it matters, and what should happen next. It should not feel like a spreadsheet pasted into a document.
+Review structured data only where it accurately describes visible page content and where a relevant search appearance exists. Also check image dimensions, descriptive alt text, filenames, compression, captions, and whether the page's primary image is crawlable and useful.
 
-Most agency reports include:
+Use Google's [Visual Elements gallery](https://developers.google.com/search/docs/appearance/visual-elements-gallery) to understand possible search-result appearances, but do not promise a rich result. Eligibility does not guarantee that Google will show a particular feature.
 
-- Executive summary
-- Website health overview
-- Critical technical issues
-- On-page SEO findings
-- Crawlability and indexability review
-- Internal linking and site structure notes
-- Recommended fixes
-- Priority level for each issue
-- Owners and next steps
+### Off-page and competitive context
 
-If reporting is a recurring pain point, build a repeatable [SEO audit reporting](/seo-audit-reporting/) format so every client gets the same structure.
+When the brief includes a ranking or visibility problem, compare the site's important pages with the pages that compete for the same intent. Review content coverage, link prominence, topic authority, SERP features, and brand or entity signals. Keep this separate from a technical crawl so the client can see which recommendations require site changes and which require broader strategy.
+
+## 5. Prioritize by Impact, Scale, Confidence, and Effort
+
+Clients need a sequence, not a flat export. A simple agency prioritization model is:
+
+**Priority = business impact × affected scale × confidence ÷ implementation effort**
+
+This is a decision aid, not a pretend-precise score. Agencies should explain the reasoning in plain language.
+
+| Priority | Use when | Example |
+|---|---|---|
+| P0: blocker | Important pages cannot be crawled, indexed, or served correctly | Noindex on the main service template |
+| P1: high impact | A scalable issue affects valuable pages or conversions | Broken canonicals across product pages |
+| P2: improvement | The issue limits quality, discovery, or efficiency but does not block access | Deep internal links to priority guides |
+| P3: backlog | Low-scale or low-confidence cleanup | One obsolete image filename |
+
+Every finding should include the evidence, affected scope, why it matters, recommendation, owner, effort estimate, and acceptance criteria. This format lets the client move directly from report to ticket.
+
+## 6. Create a Client-Ready SEO Audit Report
+
+The report translates technical observations into decisions. A strong [website audit report](/website-audit-report/) should make the answer to “what do we do next?” obvious.
+
+Recommended structure:
+
+1. Executive summary with the three to five most important decisions
+2. Scope, crawl date, data sources, exclusions, and limitations
+3. Baseline metrics and a short interpretation of the data
+4. Prioritized issue table with evidence and affected URLs
+5. Technical, content, architecture, performance, and authority sections
+6. Recommended fix sequence and dependencies
+7. Owner map for SEO, development, content, analytics, and client teams
+8. Acceptance criteria and validation plan
+9. Appendix with exports, examples, and methodology
+
+Avoid presenting a health score without explaining how it was calculated. A score can help a client scan the report, but the evidence and action plan should carry the recommendation.
+
+If reporting is a recurring pain point, use a consistent [SEO audit reporting](/seo-audit-reporting/) format and preserve the same definitions between audit cycles. Consistency makes progress visible.
 
 ## 7. Assign Fixes to the Right Owners
 
-SEO audits only create value when the recommendations become action.
+An audit creates value only when findings become owned work.
 
-Agencies usually split fixes by owner:
+- Developers handle templates, redirects, canonicals, response codes, rendering, schema implementation, and crawlability fixes.
+- Content teams handle titles, descriptions, headings, duplicate copy, intent gaps, and page refreshes.
+- SEO teams handle prioritization, QA, internal linking, sitemap review, search data interpretation, and validation.
+- Analytics teams handle measurement gaps and conversion definitions.
+- Client teams approve priorities, provide access, update the CMS, or coordinate internal resources.
 
-- Developers handle templates, redirects, canonicals, status codes, schema, and crawlability fixes.
-- Content teams handle titles, descriptions, headings, duplicate copy, and thin pages.
-- SEO teams handle prioritization, QA, internal linking, sitemap review, and validation.
-- Client teams approve priorities, update CMS fields, or coordinate internal resources.
+For each task, include the affected URL pattern, the desired change, the owner, dependencies, and the test that proves completion.
 
-Clear ownership keeps audits from stalling after delivery.
+## 8. Re-Crawl and Validate in Production
 
-## 8. Re-Crawl and Monitor Progress
+Validation is a separate phase, not a sentence at the end of the report. Re-crawl after implementation and compare the new results with the baseline.
 
-After fixes are made, agencies should re-crawl the website to confirm the changes worked.
+Check that:
 
-This step catches common problems such as partial fixes, new redirects, staging changes that did not reach production, or template updates that created new issues. It also gives account managers proof that technical SEO work is moving forward.
+- The intended URLs now return the expected response and directives
+- Redirects resolve in one useful hop where possible
+- Canonicals and internal links point to the intended destinations
+- Sitemaps contain the correct URL set
+- Template changes did not create new duplicate or broken patterns
+- Performance improvements appear in the relevant field or lab data
+- Search Console and analytics measurements still work
 
-For ongoing retainers, agencies often run audits monthly or quarterly. A recurring workflow helps the team catch new [technical SEO issues](/technical-seo-issues/) before they become ranking, crawlability, or reporting problems.
+If a fix is partial, keep the issue open and record what remains. A change log prevents the team from reopening the same investigation every quarter.
 
-## Common Mistakes Agencies Make During SEO Audits
+## 9. Monitor the Site as an Operating Process
 
-### Starting With a Tool Instead of a Scope
+For ongoing retainers, agencies commonly run a lighter monitoring crawl monthly and a deeper audit quarterly or around major releases. The cadence should follow the site's change rate and risk, not an arbitrary calendar.
 
-Tools are useful, but they do not decide what matters to the client. Agencies should define goals before running the crawl.
+Track:
 
-### Sending Raw Exports to Clients
+- New response-code and redirect patterns
+- Indexing and sitemap changes
+- New orphan or deep pages
+- Template regressions
+- Core Web Vitals trends
+- Organic landing pages and conversions
+- Open, resolved, and regressed audit findings
 
-Clients need recommendations, not just data. A raw crawl export can overwhelm the client and slow approval.
+CrawlBeast can support the repeatable collection and issue-review layer. The agency still supplies the business context, prioritization, recommendation, and human review that turn data into a strategy.
 
-### Treating Every Issue as Equal
+## Common Questions Agencies Should Answer in the Audit
 
-An audit should prioritize. When every issue is marked urgent, nothing feels urgent.
+### What is included in an agency SEO audit?
 
-### Forgetting to Validate Fixes
+Most agency audits include technical crawlability and indexability, site architecture, on-page and template patterns, content quality, performance, structured data, internal links, and relevant search or competitive context. The exact scope should be tied to the client's goal, website type, access, and available evidence.
 
-The audit process does not end when the report is sent. Agencies should re-crawl and confirm implementation.
+### Is an SEO audit just a website crawl?
 
-### Missing Internal Linking Opportunities
+No. A crawl is one evidence source. An agency audit combines crawl data with search, analytics, sitemap, performance, business, and implementation context, then turns the findings into prioritized recommendations with owners and acceptance criteria.
 
-Technical audits often focus on errors, but internal linking can be one of the easiest ways to improve crawl paths and page authority distribution.
+### How often should an agency perform an SEO audit?
+
+Run a focused check after major releases or migrations, a recurring monitoring crawl as the site changes, and a deeper audit at a cadence appropriate to the site's size and risk. Large, frequently changing sites generally need more frequent monitoring than small brochure sites.
+
+### Which SEO audit issues should be fixed first?
+
+Fix issues that prevent important pages from being crawled, indexed, served, or measured correctly. Next address scalable problems affecting valuable templates or conversions. Lower-impact cleanup belongs in a backlog unless it supports a larger change.
+
+### Can AI write an SEO audit report?
+
+AI can help summarize large datasets, group similar findings, and draft plain-language explanations. It should not invent evidence, decide business impact without context, or publish unchecked recommendations. Google's [guidance on generative AI content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) supports using automation responsibly with accuracy, usefulness, and human review.
+
+For visual learners, the [Google Search Central YouTube channel](https://www.youtube.com/@GoogleSearchCentral) is a useful source of official explanations about crawling, indexing, Search Console, and search appearance. Add a specific video only when it directly supports the surrounding section and remains current.
 
 ## Final Recommendation
 
-Agencies perform SEO audits best when they follow a consistent workflow: scope the audit, crawl the website, review technical issues, prioritize findings, create a client-ready report, assign fixes, and monitor progress.
+Agencies perform SEO audits best when they treat them as an operating process: scope the business question, establish a dated evidence baseline, crawl consistently, diagnose by workstream, prioritize by impact, report with ownership, validate every fix, and monitor regressions.
 
-CrawlBeast helps agencies make that process more repeatable by supporting technical website crawling, issue detection, and agency reporting workflows. Pair it with a clear [SEO audit template](/seo-audit-template/) and a consistent reporting structure, and your team can deliver audits that are easier to explain, approve, and act on.
+CrawlBeast helps agencies make the collection and review parts of that process more repeatable. Pair it with a clear [SEO audit template](/seo-audit-template/), a consistent [website audit report](/website-audit-report/), and a documented validation cycle to deliver audits that clients can understand, approve, and act on.
 
+### Sources and editorial notes
+
+- Google Search Central: [AI features and your website](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+- Google Search Central: [Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- Google Search Central: [Search Essentials](https://developers.google.com/search/docs/essentials)
+- Google Search Central: [Generative AI content guidance](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content)
+- Google Search Central: [Visual Elements gallery](https://developers.google.com/search/docs/appearance/visual-elements-gallery)
+- web.dev: [Core Web Vitals](https://web.dev/articles/vitals)

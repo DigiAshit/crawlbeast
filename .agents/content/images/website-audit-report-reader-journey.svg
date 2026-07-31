@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+  <title id="title">Website audit report reader journey</title>
+  <desc id="desc">A ten-step journey from defining the audit decision through collecting evidence, writing findings, prioritizing actions, presenting the report, and validating implementation.</desc>
+  <rect width="1400" height="720" fill="#f7f8fa"/>
+  <text x="70" y="76" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17212b">From raw audit data to validated action</text>
+  <text x="70" y="114" font-family="Arial, sans-serif" font-size="18" fill="#53616f">A client-ready report should move the reader through one connected decision journey.</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(70 170)">
+      <rect width="230" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#216eaa"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">1</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Define</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Goal, decision, scope,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">audience, constraints</text>
+    </g>
+    <g transform="translate(330 170)">
+      <rect width="230" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#216eaa"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">2</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Collect</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Crawl, search, analytics,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">performance, context</text>
+    </g>
+    <g transform="translate(590 170)">
+      <rect width="230" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#216eaa"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">3</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Diagnose</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Patterns, causes, limits,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">business consequence</text>
+    </g>
+    <g transform="translate(850 170)">
+      <rect width="230" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#216eaa"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">4</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Prioritize</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Impact, confidence, effort,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">dependencies, risk</text>
+    </g>
+    <g transform="translate(1110 170)">
+      <rect width="220" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#216eaa"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">5</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Write</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Evidence, recommendation,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">owner, acceptance test</text>
+    </g>
+    <path d="M300 235H330M560 235H590M820 235H850M1080 235H1110" stroke="#216eaa" stroke-width="4"/>
+    <g transform="translate(70 390)">
+      <rect width="230" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#237a57"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">6</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Roadmap</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Sequence, timing, owners,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">status, exit conditions</text>
+    </g>
+    <g transform="translate(330 390)">
+      <rect width="230" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#237a57"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">7</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Present</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Explain, answer, align,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">validate constraints</text>
+    </g>
+    <g transform="translate(590 390)">
+      <rect width="230" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#237a57"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">8</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Assign</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Tickets, owners, dates,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">dependencies, approvals</text>
+    </g>
+    <g transform="translate(850 390)">
+      <rect width="230" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#237a57"/><text x="29" y="40" font-size="17" font-weight="700" fill="#ffffff">9</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Validate</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Re-crawl, inspect, test,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">record the result</text>
+    </g>
+    <g transform="translate(1110 390)">
+      <rect width="220" height="130" rx="6" fill="#ffffff" stroke="#9aa7b2" stroke-width="2"/>
+      <circle cx="34" cy="34" r="18" fill="#237a57"/><text x="25" y="40" font-size="16" font-weight="700" fill="#ffffff">10</text>
+      <text x="64" y="39" font-size="20" font-weight="700" fill="#17212b">Monitor</text>
+      <text x="24" y="78" font-size="16" fill="#53616f">Track changes, regressions,</text>
+      <text x="24" y="103" font-size="16" fill="#53616f">outcomes, next cycle</text>
+    </g>
+    <path d="M300 455H330M560 455H590M820 455H850M1080 455H1110" stroke="#237a57" stroke-width="4"/>
+    <path d="M1220 300V345H185V390" fill="none" stroke="#677582" stroke-width="3" stroke-dasharray="8 7"/>
+    <text x="70" y="620" font-size="18" font-weight="700" fill="#17212b">Point A</text>
+    <text x="146" y="620" font-size="18" fill="#53616f">“We have data, but no shared decision.”</text>
+    <text x="895" y="620" font-size="18" font-weight="700" fill="#17212b">Point Z</text>
+    <text x="971" y="620" font-size="18" fill="#53616f">“The fix is owned, tested, and monitored.”</text>
+  </g>
+</svg>

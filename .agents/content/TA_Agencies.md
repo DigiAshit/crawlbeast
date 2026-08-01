@@ -1,5 +1,7 @@
 # CrawlBeast Topical Authority Roadmap
 
+**Status key:** `[x]` article draft completed in `.agents/content`; `[ ]` planned.
+
 ## URL Structure
 
 -   Pillar: `/seo-audit-tool-for-agencies/`
@@ -8,7 +10,7 @@
 
 # 1. Commercial Intent (`/seo-audit-tool-for-agencies/`)
 
--   /best-seo-audit-tool-for-agencies/
+-   [x] /best-seo-audit-tool-for-agencies/
 -   /seo-audit-software-for-agencies/
 -   /website-audit-software-for-agencies/
 -   /technical-seo-audit-tool-for-agencies/
@@ -18,7 +20,7 @@
 -   /seo-audit-platform/
 -   /seo-auditing-software/
 -   /seo-crawler-for-agencies/
--   /website-crawler-for-agencies/
+-   [x] /website-crawler-for-agencies/
 -   /seo-reporting-tool-for-agencies/
 -   /seo-monitoring-software/
 
@@ -29,7 +31,7 @@ Website Crawling, Templates, Comparisons, Alternatives.
 
 # 2. Agency Workflow (`/seo-audit-workflow/`)
 
--   /how-agencies-perform-seo-audits/
+-   [x] /how-agencies-perform-seo-audits/
 -   /seo-audit-process/
 -   /technical-seo-workflow/
 -   /agency-seo-checklist/
@@ -47,7 +49,7 @@ Crawling - Educational - Technical SEO Issues
 # 3. Client Reporting (`/seo-audit-reporting/`)
 
 -   /seo-audit-report-template/
--   /website-audit-report/
+-   [x] /website-audit-report/
 -   /client-seo-report/
 -   /technical-seo-report/
 -   /white-label-seo-reports/
@@ -63,7 +65,7 @@ By Industry
 
 # 5. Website Crawling (`/website-crawling/`)
 
--   /website-crawler-for-agencies/
+-   [x] /website-crawler-for-agencies/
 -   /seo-crawler-software/
 -   /crawl-websites-for-seo/
 -   /technical-website-crawler/
@@ -81,7 +83,7 @@ Educational - Alternatives
 
 # 6. Technical SEO Issues (`/technical-seo-issues/`)
 
--   /broken-link-checker/
+-   [x] /broken-link-checker/
 -   /redirect-chain-checker/
 -   /canonical-checker/
 -   /duplicate-title-checker/
@@ -105,7 +107,7 @@ Redirects ↔ Status Codes). - Link to Educational and Free feature pages.
 
 # 8. Large Website SEO (`/large-website-seo/`)
 
--   /seo-audit-for-ecommerce/
+-   [x] /seo-audit-for-ecommerce/
 -   /seo-audit-for-enterprise-websites/
 -   /seo-audit-for-10000-pages/
 -   /large-website-seo-audit/
@@ -143,7 +145,7 @@ Alternatives
 
 -   /seo-audit-for-law-firms/
 -   /seo-audit-for-dentists/
--   /seo-audit-for-ecommerce/
+-   [x] /seo-audit-for-ecommerce/
 -   /seo-audit-for-local-businesses/
 -   /seo-audit-for-saas/
 -   /seo-audit-for-startups/

@@ -113,7 +113,7 @@ Redirects ↔ Status Codes). - Link to Educational and Free feature pages.
 -   /large-website-seo-audit/
 -   /crawl-million-page-website/
 -   /shopify-seo-audit/
--   /wordpress-seo-audit/
+-   [x] /wordpress-seo-audit/
 -   /woocommerce-seo-audit/
 -   /react-seo-audit/
 -   /nextjs-seo-audit/
@@ -126,7 +126,7 @@ SEO Issues
 # 11. Pain Points (`/seo-audit-challenges/`)
 
 -   /manual-seo-audits/
--   /why-seo-audits-take-so-long/
+-   [x] /why-seo-audits-take-so-long/
 -   /seo-audit-problems/
 -   /technical-seo-challenges/
 -   /common-seo-audit-mistakes/
@@ -143,7 +143,7 @@ Alternatives
 
 # 12. By Industry (`/seo-audits-by-industry/`)
 
--   /seo-audit-for-law-firms/
+-   [x] /seo-audit-for-law-firms/
 -   /seo-audit-for-dentists/
 -   [x] /seo-audit-for-ecommerce/
 -   /seo-audit-for-local-businesses/
@@ -161,7 +161,7 @@ Templates
 
 # 13. By CMS (`/seo-audits-by-cms/`)
 
--   /wordpress-seo-audit/
+-   [x] /wordpress-seo-audit/
 -   /shopify-seo-audit/
 -   /woocommerce-seo-audit/
 -   /webflow-seo-audit/

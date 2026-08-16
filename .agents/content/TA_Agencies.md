@@ -180,7 +180,7 @@ Educational
 # 15. Competitor Comparisons (`/compare-seo-audit-tools/`)
 
 -   /crawlbeast-vs-screaming-frog/
--   /crawlbeast-vs-sitebulb/
+-   [x] /crawlbeast-vs-sitebulb/
 -   /crawlbeast-vs-semrush/
 -   /crawlbeast-vs-ahrefs/
 -   /crawlbeast-vs-jetoctopus/
@@ -194,7 +194,7 @@ Educational
 
 # 16. Alternatives (`/seo-tool-alternatives/`)
 
--   /screaming-frog-alternative/
+-   [x] /screaming-frog-alternative/
 -   /sitebulb-alternative/
 -   /deepcrawl-alternative/
 -   /jetoctopus-alternative/
@@ -212,7 +212,7 @@ Educational
 
 -   /how-to-perform-an-seo-audit/
 -   /what-is-a-technical-seo-audit/
--   /technical-seo-audit-checklist/
+-   [x] /technical-seo-audit-checklist/
 -   /website-audit-checklist/
 -   /how-to-crawl-a-website/
 -   /what-is-crawl-budget/

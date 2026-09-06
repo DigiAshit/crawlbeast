@@ -112,7 +112,7 @@ Redirects ↔ Status Codes). - Link to Educational and Free feature pages.
 -   /seo-audit-for-10000-pages/
 -   /large-website-seo-audit/
 -   /crawl-million-page-website/
--   /shopify-seo-audit/
+-   [x] /shopify-seo-audit/
 -   [x] /wordpress-seo-audit/
 -   /woocommerce-seo-audit/
 -   /react-seo-audit/
@@ -129,7 +129,7 @@ SEO Issues
 -   [x] /why-seo-audits-take-so-long/
 -   /seo-audit-problems/
 -   /technical-seo-challenges/
--   /common-seo-audit-mistakes/
+-   [x] /common-seo-audit-mistakes/
 -   /how-to-scale-seo-audits/
 -   /why-seo-audits-fail/
 -   /seo-reporting-problems/
@@ -147,7 +147,7 @@ Alternatives
 -   /seo-audit-for-dentists/
 -   [x] /seo-audit-for-ecommerce/
 -   /seo-audit-for-local-businesses/
--   /seo-audit-for-saas/
+-   [x] /seo-audit-for-saas/
 -   /seo-audit-for-startups/
 -   /seo-audit-for-enterprise/
 -   /seo-audit-for-healthcare/
@@ -162,7 +162,7 @@ Templates
 # 13. By CMS (`/seo-audits-by-cms/`)
 
 -   [x] /wordpress-seo-audit/
--   /shopify-seo-audit/
+-   [x] /shopify-seo-audit/
 -   /woocommerce-seo-audit/
 -   /webflow-seo-audit/
 -   /wix-seo-audit/
@@ -182,7 +182,7 @@ Educational
 -   /crawlbeast-vs-screaming-frog/
 -   [x] /crawlbeast-vs-sitebulb/
 -   /crawlbeast-vs-semrush/
--   /crawlbeast-vs-ahrefs/
+-   [x] /crawlbeast-vs-ahrefs/
 -   /crawlbeast-vs-jetoctopus/
 -   /crawlbeast-vs-se-ranking/
 -   /sitebulb-vs-screaming-frog/
@@ -195,7 +195,7 @@ Educational
 # 16. Alternatives (`/seo-tool-alternatives/`)
 
 -   [x] /screaming-frog-alternative/
--   /sitebulb-alternative/
+-   [x] /sitebulb-alternative/
 -   /deepcrawl-alternative/
 -   /jetoctopus-alternative/
 -   /lumar-alternative/
@@ -211,7 +211,7 @@ Educational
 # 18. Educational (`/technical-seo-guides/`)
 
 -   /how-to-perform-an-seo-audit/
--   /what-is-a-technical-seo-audit/
+-   [x] /what-is-a-technical-seo-audit/
 -   [x] /technical-seo-audit-checklist/
 -   /website-audit-checklist/
 -   /how-to-crawl-a-website/
